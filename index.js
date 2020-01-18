@@ -12,7 +12,7 @@ function johnLennonFacts(facts) {
   i = 0;
   while (i < facts.length) {
     newArray.push(`${facts}!!!`);
-    facts++;
+    i++;
   }
   return newArray;
 }
